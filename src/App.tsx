@@ -1,4 +1,3 @@
-// App.tsx
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Home from './assets/Home';
@@ -6,7 +5,8 @@ import CTHome from './assets/CTHome';
 import ResourceView from './assets/ResourceView';
 import AdminLogin from './assets/AdminLogin';
 import AdminDashboard from './assets/AdminDashboard';
-import About from './assets/About'; // Import the About component
+import About from './assets/About';
+import ScrollToTop from './assets/ScrollToTop'; // Import ScrollToTop
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
@@ -30,6 +30,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop /> {/* Add ScrollToTop here */}
       <Routes>
         {/* Public Routes */}
         <Route path="/" element={<Home />} />

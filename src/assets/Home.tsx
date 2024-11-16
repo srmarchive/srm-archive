@@ -20,7 +20,7 @@ const Home: React.FC = () => {
       {/* Banner Section */}
       <header className="bg-dark text-white text-center py-5">
         <div className="container px-3 px-md-5">
-          <h1 className="display-4 font-weight-bold">Welcome to <strong>Archive</strong></h1>
+          <h1 className="display-4 font-weight-bold">Welcome to <strong>Acehive</strong></h1>
           <p className="lead" style={{ color: '#A9A9A9' }}>
             Your one-stop destination for university question papers and subject portions!
           </p>
@@ -28,7 +28,7 @@ const Home: React.FC = () => {
             <button className="btn btn-light btn-lg me-3" onClick={handleGetStarted}>
               Get Started
             </button>
-            <a href="/about" className="btn btn-outline-light btn-lg">Learn More</a>
+            <Link to="/about" className="btn btn-outline-light btn-lg">Learn More</Link>
           </div>
         </div>
       </header>
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* filter banner section */}
+      {/* Filter Banner Section */}
       <section className="container my-5">
         <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
           <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
@@ -69,7 +69,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* resource view banner section */}
+      {/* Resource View Banner Section */}
       <section className="px-4 pt-5 my-5 text-center border-bottom">
         <h1 className="display-4 fw-bold">Browse Resources</h1>
         <div className="col-lg-7 mx-auto">
@@ -77,8 +77,8 @@ const Home: React.FC = () => {
             Dive into a comprehensive collection of study materials, cycle test papers, and semester papers, all categorized by subject and year. Our intuitive interface helps you quickly find the resources you need, covering a wide range of topics to support your academic journey.
           </p>
           <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <a href="/ct-home" className="btn btn-dark btn-lg px-4 me-sm-3">Get Started</a>
-            <a href="/about" className="btn btn-outline-dark btn-lg">Learn More</a>
+            <Link to="/ct-home" className="btn btn-dark btn-lg px-4 me-sm-3">Get Started</Link>
+            <Link to="/about" className="btn btn-outline-dark btn-lg">Learn More</Link>
           </div>
         </div>
         <div className="overflow-hidden" style={{ maxHeight: '30vh' }}>

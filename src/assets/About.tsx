@@ -12,7 +12,7 @@ const About: React.FC = () => {
       <header className="bg-dark text-white text-center py-5">
         <div className="container">
           <h1 className="display-4">About Us</h1>
-          <p className="lead">Learn more about our mission, values, and the team behind <strong>Archive</strong>.</p>
+          <p className="lead">Learn more about our mission, values, and the team behind <strong>Acehive</strong>.</p>
         </div>
       </header>
 
@@ -21,7 +21,7 @@ const About: React.FC = () => {
         <div className="container text-center">
           <h2 className="display-5 mb-4">Our Mission</h2>
           <p className="lead mb-4">
-            At <strong>Archive</strong>, we strive to provide students with a one-stop solution for all their academic needs.
+            At <strong>Acehive</strong>, we strive to provide students with a one-stop solution for all their academic needs.
             From Cycle Test and Semester papers to essential study materials, we are here to support your academic journey.
           </p>
           <div className="row">
